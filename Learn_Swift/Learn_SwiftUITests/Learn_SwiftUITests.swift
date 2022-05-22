@@ -1,13 +1,13 @@
 //
-//  HelloWorldUITests.swift
-//  HelloWorldUITests
+//  Learn_SwiftUITests.swift
+//  Learn_SwiftUITests
 //
-//  Created by 이두산 on 2022/04/13.
+//  Created by 이두산 on 2022/05/22.
 //
 
 import XCTest
 
-class HelloWorldUITests: XCTestCase {
+class Learn_SwiftUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

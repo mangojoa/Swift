@@ -1,13 +1,13 @@
 //
-//  HelloWorldUITestsLaunchTests.swift
-//  HelloWorldUITests
+//  Learn_SwiftUITestsLaunchTests.swift
+//  Learn_SwiftUITests
 //
-//  Created by 이두산 on 2022/04/13.
+//  Created by 이두산 on 2022/05/22.
 //
 
 import XCTest
 
-class HelloWorldUITestsLaunchTests: XCTestCase {
+class Learn_SwiftUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

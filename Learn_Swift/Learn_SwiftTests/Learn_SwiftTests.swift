@@ -1,14 +1,14 @@
 //
-//  HelloWorldTests.swift
-//  HelloWorldTests
+//  Learn_SwiftTests.swift
+//  Learn_SwiftTests
 //
-//  Created by 이두산 on 2022/04/13.
+//  Created by 이두산 on 2022/05/22.
 //
 
 import XCTest
-@testable import HelloWorld
+@testable import Learn_Swift
 
-class HelloWorldTests: XCTestCase {
+class Learn_SwiftTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
