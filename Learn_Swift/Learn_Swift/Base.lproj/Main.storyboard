@@ -33,10 +33,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7m-eD-vbV">
-                                <rect key="frame" x="119" y="373" width="137" height="31"/>
+                                <rect key="frame" x="119" y="291" width="137" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="페이지 이동"/>
+                                <buttonConfiguration key="configuration" style="plain" title="두 번째 페이지 이동"/>
                                 <connections>
                                     <action selector="sayHello:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q3k-xm-exm"/>
                                     <segue destination="r65-yY-MZQ" kind="presentation" id="azx-Ka-tYf"/>
@@ -49,6 +49,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zn6-7L-dei">
+                                <rect key="frame" x="118" y="358" width="139" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="세 번째 페이지 이동"/>
+                                <connections>
+                                    <segue destination="pml-qC-5dx" kind="show" id="6I0-bd-Cy6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -89,7 +98,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2WV-gG-qw2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="836" y="100"/>
+            <point key="canvasLocation" x="1377" y="-23"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O7G-Wb-hst">
+            <objects>
+                <viewController id="pml-qC-5dx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c1a-YH-S4s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="gM5-xU-Oxm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Bte-6B-Dtg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f6v-H5-mQU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="641"/>
         </scene>
     </scenes>
     <resources>
