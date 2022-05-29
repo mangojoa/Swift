@@ -54,9 +54,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="세 번째 페이지 이동"/>
-                                <connections>
-                                    <segue destination="pml-qC-5dx" kind="show" id="6I0-bd-Cy6"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -98,23 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2WV-gG-qw2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1377" y="-23"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="O7G-Wb-hst">
-            <objects>
-                <viewController id="pml-qC-5dx" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="c1a-YH-S4s">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="gM5-xU-Oxm"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Bte-6B-Dtg"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f6v-H5-mQU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1377" y="641"/>
+            <point key="canvasLocation" x="978" y="100"/>
         </scene>
     </scenes>
     <resources>
