@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // 시작 화면에 조작(?)을 위해 코드하나를 추가해보자
+        // 5초동안 지연되면 그 시간만큼 로딩 화면이 계속 표기되는 효과가 생깁니다.
         sleep(5)
         
         return true
